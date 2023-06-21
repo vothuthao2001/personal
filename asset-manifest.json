@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9411d8c1.css",
+    "main.js": "/static/js/main.ddd37f24.js",
+    "static/media/foodWeb.png": "/static/media/foodWeb.352f6c07e81d48f352e5.png",
+    "static/media/hepat2.png": "/static/media/hepat2.e09f5c1f41ca845dcfc6.png",
+    "static/media/hepat.png": "/static/media/hepat.98ece83b890453b4ea73.png",
+    "static/media/avatar.png": "/static/media/avatar.d41f3f75a757a17fdb1d.png",
+    "static/media/hand-iphone.jpg": "/static/media/hand-iphone.ee6e234f2257a6f9b588.jpg",
+    "static/media/iphone-arrange2.jpg": "/static/media/iphone-arrange2.cbc36fcf65efb175380f.jpg",
+    "static/media/may2.png": "/static/media/may2.9eb91af88d6941cdf18d.png",
+    "static/media/iphonex.png": "/static/media/iphonex.badd4683b587ba04fde2.png",
+    "static/media/logo.png": "/static/media/logo.8316f1b2baec6d427ae5.png",
+    "static/media/ae.png": "/static/media/ae.0be24670fb25765a02e2.png",
+    "static/media/node.png": "/static/media/node.66be9a4fbf1843adfda3.png",
+    "static/media/react.png": "/static/media/react.eb76d32a89d00215f7f8.png",
+    "index.html": "/index.html",
+    "main.9411d8c1.css.map": "/static/css/main.9411d8c1.css.map",
+    "main.ddd37f24.js.map": "/static/js/main.ddd37f24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9411d8c1.css",
+    "static/js/main.ddd37f24.js"
+  ]
+}
