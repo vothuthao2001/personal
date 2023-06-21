@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+*{
+    line-height: 2 rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+    margin-left: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hide{
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.show
+{
+    opacity: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.avatar
+{
+    border-radius: 50px;
+}
+.tab-links{
+    color: white !important;
+}
+.tab-links:hover
+{
+    color:brown;
+}
+.active-link{
+    text-decoration: underline 1px;
+}
+border{
+    border-color: #DA6D9B;
+}
+button:hover
+{
+    color: aqua;
+}
+.active
+{
+    color: #DA6D9B;
+}
+.card-container {
+    grid-column: 3;
+    gap: 20;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.card-container :hover{
+    outline: #ffffff;
+    transform: scale(105%);
+}
+.card-skill{
+    height: 180px;
+    background-color: black;
+    width: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.card-skill img
+{
+    gap: 40px;
+}
+.card-skill .skill-image{
+    height: 150px;
+    width: auto;
+    padding-right: 40px;
+}
+.card-skill span{
+    color: #ffffff;
+}
+.list ul {
+    list-style: square;
+    display: flex ;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.toeic{
+    display: flex;
+    flex-direction: column;
+}
+.curcle
+{   width: 150px;
+    height: 150px;
+    padding: 30px;
+    border-radius: 75px;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+@media screen and (max-width: 768px) {
+    .navbar-links {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+    }
+    .navbar-links li {
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        height: auto;
+    }
+    .banner-image {
+        height: 200px;
+    }
+    .banner-text {
+        position: static;
+        font-size: 2em;
+        padding: 1em;
+    }
 }
