@@ -9,8 +9,8 @@ function Skill() {
             >
            <Title title='Skill' des = 'What can I do?'/>
         <div className='w-full'>
-        <div className='pb-10 text-2xl font-tileFont font-bold'>Knowledge about programming</div>
-            <div className='list flex justify-center gap-20 pb-10 '> 
+        <div className='title-skill pb-10 text-2xl font-tileFont font-bold'>Knowledge about programming</div>
+            <div className='skill-list list flex justify-center gap-20 pb-10 '> 
             <ul className='ul'>
             <li>HTML5 & CSS3</li>
             <li>ReactJs (Basic learning)</li>
@@ -32,8 +32,8 @@ function Skill() {
             <img src={figma}/>
             </div>
         </div>
-        <div>
-        <div className='pb-10 text-2xl font-tileFont font-bold'>Graphic design software</div>
+        <div className='graphic'>
+        <div className='title-skill pb-10 text-2xl font-tileFont font-bold'>Graphic design software</div>
         <div className="card-container">
         <div className="card-skill">
            <img src={ae} className="skill-image" alt="" />

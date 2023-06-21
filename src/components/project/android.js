@@ -6,7 +6,7 @@ function Android() {
         <div className='w-full '>
         <div className=' text-center'>
         <h2 className='w-full mx-auto text-6xl font-bold'> MOBILE APP: HEPAT</h2>
-        <img src={hepat} alt='Landing page'/>
+        <img src={hepat}  alt='Landing page'/>
         </div>
         <div className=' text-xl pb-10'>
         <h3 className='font-bold'>Description</h3>
@@ -18,7 +18,7 @@ function Android() {
 
        </p>
         </div>
-        <img src={hepat2} alt='Landing page'/>
+        <img src={hepat2} width='50%' alt='Landing page'/>
        
            
         </div>

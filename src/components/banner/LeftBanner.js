@@ -24,22 +24,22 @@ const LeftBanner = ()=>
          <h2 className='text-5xl font-bold text-designColor' ><span>{text}</span>
          </h2>
          <p>
-         Now I have nothing but I want to be a ui-ux designer. Can you hired me?
-         I'm very happy that I may become a ui-ux designer team member in your team.
-         I hope you guy can give me a chance to work. I promise I will not make you disapointed.
+         I am currently looking for a job in front-end website or ui-ux design.
+          Although I have no previous experience,
+           I will constantly improve and learn to meet the best requirements that the company sets out.
          </p>
      </div>
  <div className='flex justify-between'>
      <div>
-     <h3 className='text-xl mb-5 mt-[-50px] font-light uppercase font-titleFont'>Contact me</h3>
-     <p className='flex gap-5'>
+     <h3 className='contact text-xl mb-5 mt-[-50px] font-light uppercase font-titleFont'>Contact me</h3>
+     <div className='icons flex gap-5'>
         <span className=' text-2xl text-designColor'>
         <FaLinkedinIn/>
         </span>
         <span className=' text-2xl text-designColor'>
         <FaFacebookF/>
         </span>
-    </p>
+    </div>
      </div>
      </div>
  </div>

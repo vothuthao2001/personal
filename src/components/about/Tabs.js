@@ -37,7 +37,7 @@ class Tabs extends React.Component {
 
         </div>
 
-      <div className='w-full flex items-center'>
+      <div className='tab-content w-full flex items-center'>
         <div className="w-1/3">
         <img className='' src={image3} /> </div>
 
