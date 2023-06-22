@@ -1,5 +1,6 @@
 import React from 'react';
 import { image3 } from "../../assets";
+import {IoIosSchool, IoIosInformationCircle, IoIosBookmark} from 'react-icons/io'
 class Tabs extends React.Component {
   constructor(props) {
     super(props);
@@ -22,17 +23,18 @@ class Tabs extends React.Component {
         <button
         className={`tab ${activeTab === 'infomation' ? 'active' : ''}`}
         onClick={() => this.handleTabClick('infomation')}>
-        Information
+        <span className='flex gap-3 tab-icon '> <IoIosInformationCircle className='text-3xl'/> Information </span> 
       </button>
           <button
             className={`tab ${activeTab === 'education' ? 'active' : ''}`}
             onClick={() => this.handleTabClick('education')}>
-            Education
+          <span className='flex gap-3 tab-icon'> <IoIosSchool  className='text-3xl' /> Education </span> 
           </button>
           <button
             className={`tab ${activeTab === 'experience' ? 'active' : ''}`}
             onClick={() => this.handleTabClick('experience')}>
-            Experience
+            <span className='flex gap-3 tab-icon'><IoIosBookmark  className='text-3xl'/>  Experience </span> 
+     
           </button>
 
         </div>

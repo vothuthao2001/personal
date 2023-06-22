@@ -13,7 +13,8 @@ import foodWeb from "./images/foodWeb.png"
 import hepat from './images/hepat.png'
 import hepat2 from './images/hepat2.png'
 import seo from './images/seo.png'
+import photoshop from './images/photoshop.png'
 export{
     image1, image2, image3, image4, logo, may2, level, ae,reactImage, node,figma,
-    foodWeb,hepat, hepat2,seo
+    foodWeb,hepat, hepat2,seo, photoshop
 }

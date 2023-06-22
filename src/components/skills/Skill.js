@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './card';
 import Title from '../layout/Title';
-import { level, ae, reactImage, figma,node } from '../../assets/index.js';
+import { level, ae,photoshop, reactImage, figma,node } from '../../assets/index.js';
 function Skill() {
     return (
         <div>
@@ -36,14 +36,12 @@ function Skill() {
         <div className='title-skill pb-10 text-2xl font-tileFont font-bold'>Graphic design software</div>
         <div className="card-container">
         <div className="card-skill">
-           <img src={ae} className="skill-image" alt="" />
-           <img src={level} width="150px" height="150px"  alt=""/>
+           <img src={photoshop} className="skill-image" alt="" />
        
         </div>
 
         <div className="card-skill">
         <img src={ae} className="skill-image" alt="" />
-        <img src={level} width="150px" height="150px"  alt=""/>
     
      </div>
 
@@ -51,13 +49,13 @@ function Skill() {
      </div>
 
     <div className='laguage-skill py-10'>
-    <div className='pb-10 text-2xl font-tileFont font-bold'>English skill - TOEIC</div>
+    <div className=' pb-10 text-2xl font-tileFont font-bold'>English skill - TOEIC</div>
        <div className='flex justify-center items-center gap-40'> <div className='toeic'>
-       <span className="laguage-skill">LISTENING & READING</span>
+       <span className="laguage-skill">Listening & Reading</span>
        <span className="curcle text-6xl border-[1px] border-gray">605</span>  
    </div>
    <div className='toeic'>
-   <span className="laguage-skill">LISTENING & READING</span>
+   <span className="laguage-skill">Writting & Speaking</span>
    <span className="curcle text-6xl border-[1px] border-gray">270</span>  </div>
     </div>
     </div> 
