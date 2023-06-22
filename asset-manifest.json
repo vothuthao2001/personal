@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/personal/static/css/main.9411d8c1.css",
-    "main.js": "/personal/static/js/main.06257e45.js",
+    "main.css": "/personal/static/css/main.2e40c23d.css",
+    "main.js": "/personal/static/js/main.1133437f.js",
     "static/media/foodWeb.png": "/personal/static/media/foodWeb.352f6c07e81d48f352e5.png",
+    "static/media/seo.png": "/personal/static/media/seo.b63df2184732e7ea96cd.png",
     "static/media/hepat2.png": "/personal/static/media/hepat2.e09f5c1f41ca845dcfc6.png",
     "static/media/hepat.png": "/personal/static/media/hepat.98ece83b890453b4ea73.png",
     "static/media/avatar.png": "/personal/static/media/avatar.d41f3f75a757a17fdb1d.png",
@@ -15,11 +16,11 @@
     "static/media/node.png": "/personal/static/media/node.66be9a4fbf1843adfda3.png",
     "static/media/react.png": "/personal/static/media/react.eb76d32a89d00215f7f8.png",
     "index.html": "/personal/index.html",
-    "main.9411d8c1.css.map": "/personal/static/css/main.9411d8c1.css.map",
-    "main.06257e45.js.map": "/personal/static/js/main.06257e45.js.map"
+    "main.2e40c23d.css.map": "/personal/static/css/main.2e40c23d.css.map",
+    "main.1133437f.js.map": "/personal/static/js/main.1133437f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9411d8c1.css",
-    "static/js/main.06257e45.js"
+    "static/css/main.2e40c23d.css",
+    "static/js/main.1133437f.js"
   ]
 }
