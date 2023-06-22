@@ -1,5 +1,5 @@
 import React from "react";
-import {image1,logo} from '../../assets/index.js';
+import {logo} from '../../assets/index.js';
 import { navLinksdata } from "../../constants";
 import { FaBars } from "react-icons/fa";
 import {Link} from 'react-scroll'

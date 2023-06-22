@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        bodyFont : ["Poppins", "sans-serif"],
-        titleFont: ["Poppins", "sans-serif"],
+        bodyFont : ["Helvetica", "sans-serif"],
+        titleFont: ["Helvetica", "sans-serif"],
       },
       colors: {
         bodyColor: "#04052C",

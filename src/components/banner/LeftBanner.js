@@ -1,8 +1,7 @@
 import React from 'react';
-import {useTypewriter, Cursor} from 'react-simple-typewriter'
-import {FaFacebookF, FaLinkedinIn} from 'react-icons/fa'
-import {SiTailwindcss, SiFigma, SiNextdotjs} from 'react-icons/si'
-import {may2} from '../../assets/index.js'
+import {useTypewriter} from 'react-simple-typewriter'
+import {FaPhoneSquareAlt, FaFacebookSquare, FaEnvelope} from 'react-icons/fa'
+
 const LeftBanner = ()=>
 {
     const [text] = useTypewriter(
@@ -33,11 +32,11 @@ const LeftBanner = ()=>
      <div>
      <h3 className='contact text-xl mb-5 mt-[-50px] font-light uppercase font-titleFont'>Contact me</h3>
      <div className='icons flex gap-5'>
-        <span className=' text-2xl text-designColor'>
-        <FaLinkedinIn/>
+        <span className=' text-designColor'>
+        <FaPhoneSquareAlt/> <span>0924454471</span> 
         </span>
-        <span className=' text-2xl text-designColor'>
-        <FaFacebookF/>
+        <span className=' text-designColor'>
+       < FaEnvelope/> <span>thaovothu102@gmail.com</span> 
         </span>
     </div>
      </div>

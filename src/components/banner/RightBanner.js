@@ -1,8 +1,5 @@
-import React, { Component } from 'react';
-import {FaFacebookF, FaLinkedinIn} from 'react-icons/fa'
-import LeftBanner from './LeftBanner'
+import React from 'react';
 import { image3 } from '../../assets/index.js';
-import {SiTailwindcss, SiFigma, SiNextdotjs} from 'react-icons/si'
 
 const RightBanner = ()=>{
     return (

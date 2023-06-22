@@ -12,7 +12,7 @@ function Skill() {
         <div className='title-skill pb-10 text-2xl font-tileFont font-bold'>Knowledge about programming</div>
             <div className='skill-list list flex justify-center gap-20 pb-10 '> 
             <ul className='ul'>
-            <li>HTML5 & CSS3</li>
+            <li>HTML & CSS</li>
             <li>ReactJs (Basic learning)</li>
             <li>NodeExpress (Basic learning)</li>
             </ul>
@@ -23,7 +23,6 @@ function Skill() {
             </ul>
             <ul className='ul'>
             <li>UI-UX design</li>
-            <li>SEO</li>
             </ul>
             </div>
             <div className='skill-icon flex justify-center gap-20 py-10'>
@@ -52,11 +51,11 @@ function Skill() {
     <div className=' pb-10 text-2xl font-tileFont font-bold'>English skill - TOEIC</div>
        <div className='flex justify-center items-center gap-40'> <div className='toeic'>
        <span className="laguage-skill">Listening & Reading</span>
-       <span className="curcle text-6xl border-[1px] border-gray">605</span>  
+       <span className="curcle border-[1px] border-gray">605</span>  
    </div>
    <div className='toeic'>
    <span className="laguage-skill">Writting & Speaking</span>
-   <span className="curcle text-6xl border-[1px] border-gray">270</span>  </div>
+   <span className="curcle  border-[1px] border-gray">270</span>  </div>
     </div>
     </div> 
 

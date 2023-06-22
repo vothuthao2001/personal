@@ -1,5 +1,5 @@
 import React from 'react';
-import {useTypewriter, Cursor} from 'react-simple-typewriter'
+import {useTypewriter} from 'react-simple-typewriter'
 import LeftBanner from './LeftBanner';
 import RightBanner from './RightBanner';
 const Banner = ()=>
