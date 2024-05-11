@@ -6,7 +6,7 @@ const LeftBanner = ()=>
 {
     const [text] = useTypewriter(
         {
-            words: ['Fresher coder','UI-UX designer', 'Frontend developer'],
+            words: ['UI-UX designer', 'Digital Marketing'],
             loop: true,
             typeSpeed: 20,
             delaySpeed: 2000,
@@ -23,8 +23,8 @@ const LeftBanner = ()=>
          <h2 className='text-5xl font-bold text-designColor' ><span>{text}</span>
          </h2>
          <p>
-         I am currently looking for a job in front-end website or ui-ux design.
-          Although I have no previous experience,
+         I am currently looking for a job in digital marketing or ui-ux design.
+          Although I have less experience,
            I will constantly improve and learn to meet the best requirements that the company sets out.
          </p>
      </div>
